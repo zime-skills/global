@@ -8,7 +8,7 @@ metadata:
   zime:roles: ae,se
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.1
+  zime:marketplace-version: 0.1.2
 ---
 
 # Competitive Intelligence
