@@ -3,12 +3,12 @@ name: actions-commitments
 description: "Shows open action items and commitments. Who promised what, and by when. Works for one call, one deal, or a whole account."
 license: MIT
 metadata:
-  zime:skill-id: c0119c52-bc7e-457a-82c1-b6b75e4c78be
+  zime:skill-id: 65cb2c4b-4d72-4393-81b5-7546750abae2
   zime:tag: execution
   zime:roles: ae,cs
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.4
+  zime:marketplace-version: 0.1.5
 ---
 
 # Actions & Commitments

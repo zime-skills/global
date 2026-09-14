@@ -3,12 +3,12 @@ name: create-sales-to-cs-handover
 description: "Builds the Sales to CS handover doc for one deal or account. Covers stakeholders, why we won, open objections, commitments, and call history. Creates a real Google Doc when connected, otherwise gives you the text to paste in."
 license: MIT
 metadata:
-  zime:skill-id: 92c4c345-cc26-4a29-8b64-c8e9b29971c2
+  zime:skill-id: 0e82dc75-cffd-449c-b45f-ba8b00f94ea1
   zime:tag: workflow
   zime:roles: ae,cs
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.4
+  zime:marketplace-version: 0.1.5
 ---
 
 # Sales → CS Handover

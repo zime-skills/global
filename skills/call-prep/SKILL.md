@@ -3,12 +3,12 @@ name: call-prep
 description: "Builds a quick prep note before an upcoming call. Shows the biggest risk, and 2-3 things to do. Only works for your own upcoming meetings."
 license: MIT
 metadata:
-  zime:skill-id: d77f1d8d-cc74-4cf4-8074-8ce5f4bd6f77
+  zime:skill-id: dfeec687-3057-43fb-abc0-bb0c46256665
   zime:tag: workflow
   zime:roles: ae,se
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.4
+  zime:marketplace-version: 0.1.5
 ---
 
 # Call Prep

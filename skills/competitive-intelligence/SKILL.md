@@ -3,12 +3,12 @@ name: competitive-intelligence
 description: "Shows what customers actually say about competitors. Where they come up, what they claim, and how we compare. Only uses real quotes from real calls."
 license: MIT
 metadata:
-  zime:skill-id: fdde9c2c-92ee-4a85-9ded-67767967a50a
+  zime:skill-id: 97b63479-93dc-4cf2-9ee1-754a216267b4
   zime:tag: intelligence
   zime:roles: ae,se
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.4
+  zime:marketplace-version: 0.1.5
 ---
 
 # Competitive Intelligence

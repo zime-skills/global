@@ -3,12 +3,12 @@ name: pipeline-review
 description: "Reviews your whole pipeline. Shows what's at risk, what's stalled, and what to focus on this week."
 license: MIT
 metadata:
-  zime:skill-id: da742fb0-546d-44eb-972c-e93fcf4ea3d0
+  zime:skill-id: ae3aac2b-10cc-460c-b206-9484dfeb0bd9
   zime:tag: intelligence
   zime:roles: ae,pm
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.4
+  zime:marketplace-version: 0.1.5
 ---
 
 # Pipeline Review

@@ -3,12 +3,12 @@ name: get-meeting
 description: "Looks up one meeting or call. Shows the date, who was there, the linked deal, and if it was recorded."
 license: MIT
 metadata:
-  zime:skill-id: 58443599-27c7-4bd2-a335-56ab84e41503
+  zime:skill-id: 0ca12fd7-f9da-4a9c-b2c6-4ddf7549c589
   zime:tag: research
   zime:roles: ae
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.4
+  zime:marketplace-version: 0.1.5
 ---
 
 # Get Meeting

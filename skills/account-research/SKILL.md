@@ -3,12 +3,12 @@ name: account-research
 description: "Research a new prospect company before you reach out. Checks if they fit our ICP and who the buyers might be. Use for companies not yet in CRM. For existing accounts, use get-account instead."
 license: MIT
 metadata:
-  zime:skill-id: 89d0ec2a-be07-4db0-8b38-326d69b40bc4
+  zime:skill-id: a996cb94-8af5-4b6d-ae1e-5bd2fe043782
   zime:tag: research
   zime:roles: ae,bdr
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.4
+  zime:marketplace-version: 0.1.5
 ---
 
 # Account Research

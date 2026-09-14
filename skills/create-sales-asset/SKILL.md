@@ -3,12 +3,12 @@ name: create-sales-asset
 description: "Builds a sales asset from real customer evidence only, never made up facts. Covers account review decks (as slides), one-pagers, battlecards, case studies, and objection talking points. Always an internal draft, not customer-ready."
 license: MIT
 metadata:
-  zime:skill-id: 89399217-6d0c-45dd-a02a-cf7a70730046
+  zime:skill-id: 33b3e084-8df2-40bd-b91f-1d5199dd9a14
   zime:tag: communication
   zime:roles: ae,marketing
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.4
+  zime:marketplace-version: 0.1.5
 ---
 
 # Sales Asset Builder

@@ -3,12 +3,12 @@ name: get-transcript
 description: "Gets the full word for word transcript of one recorded call. Use when you need the exact words said, or a quotable line."
 license: MIT
 metadata:
-  zime:skill-id: f0e98b6d-4f2c-43e6-bbea-e2a4c7e03a60
+  zime:skill-id: ae3bdac9-557b-4eea-a611-87eaaaf553bf
   zime:tag: research
   zime:roles: ae,se
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.4
+  zime:marketplace-version: 0.1.5
 ---
 
 # Get Transcript
