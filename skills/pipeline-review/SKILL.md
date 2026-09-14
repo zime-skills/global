@@ -8,7 +8,7 @@ metadata:
   zime:roles: ae,pm
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.5
+  zime:marketplace-version: 0.1.6
 ---
 
 # Pipeline Review
