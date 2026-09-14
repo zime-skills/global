@@ -8,7 +8,7 @@ metadata:
   zime:roles: ae,cs
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.7
+  zime:marketplace-version: 0.1.8
 ---
 
 # Actions & Commitments

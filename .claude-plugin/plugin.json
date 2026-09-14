@@ -1,7 +1,7 @@
 {
   "name": "zime-global",
   "description": "Zime's global skill catalogue. Rendered from the Zime Skill Tree by the skills publisher: skills any Zime user has published for every workspace, backed by the Zime MCP connector (mcp.zime.ai). Requires a Zime account.",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "author": {
     "name": "Zime",
     "url": "https://zime.ai"
