@@ -1,0 +1,15 @@
+{
+  "name": "zime-global",
+  "owner": {
+    "name": "Zime",
+    "email": "support@zime.ai"
+  },
+  "plugins": [
+    {
+      "name": "zime-global",
+      "source": "./",
+      "description": "Zime's global skill catalogue: skills published for every Zime workspace, backed by the Zime MCP connector (mcp.zime.ai). Requires a Zime account.",
+      "installationPreference": "auto_install"
+    }
+  ]
+}
