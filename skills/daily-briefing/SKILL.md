@@ -3,7 +3,7 @@ name: daily-briefing
 description: "Gives you your day at a glance. Today's meetings, what changed on your deals, and what needs attention now."
 license: MIT
 metadata:
-  zime:skill-id: aa4d7a1f-2f3c-4c5d-be5f-6d7cec6f6816
+  zime:skill-id: 7ca4a553-54c6-452f-9fe3-93977e5d8559
   zime:tag: workflow
   zime:roles: ae,bdr
   zime:visibility: global

@@ -3,7 +3,7 @@ name: follow-up
 description: "Drafts the follow-up email after one call. Recaps what was agreed and states the next step, using only what was actually said. Always a draft for you to review before sending."
 license: MIT
 metadata:
-  zime:skill-id: 92e9d1f2-67c9-43c2-9d25-26e6cefe69d0
+  zime:skill-id: 6df60f50-4993-42f0-92ef-f599f4a984a6
   zime:tag: communication
   zime:roles: ae,bdr
   zime:visibility: global

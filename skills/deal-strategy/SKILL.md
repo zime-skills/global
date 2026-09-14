@@ -3,7 +3,7 @@ name: deal-strategy
 description: "Digs into one deal. Shows where it stands, the risks and objections, who the stakeholders are, and what to do next. Grounded in real calls, not generic sales advice."
 license: MIT
 metadata:
-  zime:skill-id: 3952886e-6d5b-452f-aa34-7c6611ed50e9
+  zime:skill-id: 806bcc33-69c8-4989-bc8b-25324195da07
   zime:tag: intelligence
   zime:roles: ae,se
   zime:visibility: global

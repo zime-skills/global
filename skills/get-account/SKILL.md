@@ -3,7 +3,7 @@ name: get-account
 description: "Looks up one account already in CRM. Shows domain, industry, and owner. For a company not yet in CRM, use account-research instead."
 license: MIT
 metadata:
-  zime:skill-id: e95e6470-35be-4d6a-9172-779e785cc801
+  zime:skill-id: b08952bb-8f65-468f-8b91-1a3cb1436872
   zime:tag: research
   zime:roles: ae,cs
   zime:visibility: global

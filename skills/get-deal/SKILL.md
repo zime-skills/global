@@ -3,7 +3,7 @@ name: get-deal
 description: "Looks up one deal's CRM record. Shows stage, amount, owner, and close date."
 license: MIT
 metadata:
-  zime:skill-id: 96cea89f-3c27-4a45-9118-79e226ee5a1e
+  zime:skill-id: 73098657-6272-47f9-9324-06b0580806da
   zime:tag: research
   zime:roles: ae
   zime:visibility: global

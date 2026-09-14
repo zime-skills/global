@@ -3,7 +3,7 @@ name: call-recap
 description: "Summarizes one past call. Shows what was decided, what's risky, and what's still open."
 license: MIT
 metadata:
-  zime:skill-id: 804c8a6e-d47a-4b7a-aee2-90a5729af5a0
+  zime:skill-id: 2ce5c3c5-2b88-4b6d-84eb-f098143b89f9
   zime:tag: communication
   zime:roles: ae,cs
   zime:visibility: global
