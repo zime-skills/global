@@ -1,5 +1,5 @@
 ---
-name: review-account-2
+name: review-account
 description: "Everything about the commercial side: one account, one deal, or the whole pipeline, as a CRM record or as a grounded analysis. Use for \"pull up the Acme account\", \"what stage is the Acme expansion\", \"who owns this deal\", \"how do I win the Acme deal\", \"why is this deal at risk\", \"what's at risk this quarter\", \"what's stalled\", \"review Priya's pipeline\", or \"what should I focus on this week\". Works out scope (account, deal, or portfolio) and depth (facts or judgment) from the question itself. Grounded in the live CRM and the calls behind it, never generic sales advice, and reports a dimension as unknown rather than filling it with best practice. For a company not yet in CRM, use account-research instead."
 license: MIT
 metadata:
@@ -8,7 +8,7 @@ metadata:
   zime:roles: ae,se,cs,pm
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.8
+  zime:marketplace-version: 0.1.9
 ---
 
 # Review Account

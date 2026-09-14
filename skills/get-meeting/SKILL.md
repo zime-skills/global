@@ -8,7 +8,7 @@ metadata:
   zime:roles: ae
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.8
+  zime:marketplace-version: 0.1.9
 ---
 
 # Get Meeting
