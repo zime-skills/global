@@ -8,7 +8,7 @@ metadata:
   zime:roles: ae,marketing
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.9
+  zime:marketplace-version: 0.1.10
 ---
 
 # Sales Asset Builder
