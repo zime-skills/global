@@ -1,0 +1,18 @@
+CONTEXT_LEVEL: deal
+ACCOUNT_ID: ACC-4471
+ACCOUNT_NAME: Northwind Logistics
+PARTNER_ACCOUNT_ID:
+DEAL_ID: OPP-88213
+DEAL_NAME: Northwind / TMS Exception Automation / 240 seats
+DEAL_STAGE: Technical Discovery
+DEAL_OWNER: Alex Rivera
+DEAL_CRM_FIELDS:
+EXTERNAL_ATTENDEES: dana.kim@northwind-logistics.example, priya.shah@northwind-logistics.example, marco.silva@fresco-consulting.example
+ATTENDEE_DOMAIN: northwind-logistics.example, fresco-consulting.example
+INTERNAL_ATTENDEE_FUNCTIONS: Solutions Engineer
+MEETING_TITLE: Vendor Co: exception-automation demo
+CALL_AGENDA_TYPE:
+DATE_TIME: 2026-08-12 15:00 (UTC)
+PAST_CALLS:
+
+CALL_ID: 1001 | DATE: 2026-07-28 | TITLE: Northwind discovery — dispatcher exception workflow | TAG: partial_attendee_overlap

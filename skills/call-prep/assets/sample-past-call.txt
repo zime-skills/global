@@ -1,0 +1,41 @@
+Call: Northwind discovery — dispatcher exception workflow
+Date: 2026-07-28
+Attendees: Dana Kim (Northwind Logistics, Director of Operations),
+Alex Rivera (Vendor Co, Account Executive)
+
+[00:02] Alex: Thanks for making time, Dana. Last we spoke you mentioned
+the exception backlog was the thing keeping your dispatch leads up at
+night — is that still the right place to start?
+
+[00:03] Dana: It is. Our dispatchers log exceptions in a shared
+spreadsheet, and someone spends probably 8 to 10 hours a week just
+chasing down exception statuses. We missed an SLA with a mid-size
+account last quarter because an exception sat unnoticed for two days.
+
+[00:07] Alex: Who else feels that pain besides your team?
+
+[00:08] Dana: Priya Shah — she runs our IT integrations. Anything that
+touches the TMS goes through her, and she'll want to see how your tool
+authenticates. We use Okta for SSO, and honestly SSO support is a hard
+requirement. The last vendor we evaluated fell over on that.
+
+[00:12] Alex: Good to know. We support Okta out of the box — I'll have
+our solutions engineer show the SSO flow live rather than just claim it.
+
+[00:14] Dana: That would help. One more thing — we've got Fresco
+Consulting helping us run this evaluation, so Marco from their side may
+join future calls. They ran the RFP when we looked at FleetPilot two
+years ago. We didn't buy it — pricing scaled per-vehicle and that
+penalized us badly in peak season.
+
+[00:18] Alex: Understood — per-seat pricing is something we should walk
+through explicitly then. What does your timeline look like?
+
+[00:19] Dana: Board asked for a logistics-ops review this quarter, so
+we want a decision before Q4 planning starts in October.
+
+[00:21] Alex: Then let me propose this — a demo focused on the
+exception workflow and the Okta SSO flow, with Priya in the room. I'll
+also send over our integration security doc by Friday.
+
+[00:22] Dana: Works. Send the invite.
