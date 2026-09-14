@@ -8,7 +8,7 @@ metadata:
   zime:roles: ae,se,marketing,pm
   zime:visibility: global
   zime:skill-version: 2
-  zime:marketplace-version: 0.1.2
+  zime:marketplace-version: 0.1.3
 ---
 
 # Competitor Watch
