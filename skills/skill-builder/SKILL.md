@@ -7,8 +7,8 @@ metadata:
   zime:tag: workflow
   zime:roles: ae,se,bdr,marketing,pm,cs
   zime:visibility: global
-  zime:skill-version: 1
-  zime:marketplace-version: 0.1.11
+  zime:skill-version: 2
+  zime:marketplace-version: 0.1.12
 ---
 
 # Skill Builder
@@ -102,12 +102,12 @@ provides. Say plainly that it will only ever run in local mode.
 Every connector skill has the same two beats:
 
 1. **Resolve.** Which tool turns the user's words into one specific record:
- a `call_id`, `deal_id`, `account_id`, `meeting_id`, `contact_id`. If the
- scope is many records at once, there is no resolve step; say so in the
- skill and go straight to the answering tool.
+a `call_id`, `deal_id`, `account_id`, `meeting_id`, `contact_id`. If the
+scope is many records at once, there is no resolve step; say so in the
+skill and go straight to the answering tool.
 2. **Answer.** Which tool produces the deliverable: a record (return its
- fields), a verbatim artefact (return it untouched), or an agent's analysis
- (relay it as-is).
+fields), a verbatim artefact (return it untouched), or an agent's analysis
+(relay it as-is).
 
 Write down the mapping before drafting. If a step has no tool, the skill's
 local mode is the only mode and the draft must say so.
@@ -183,14 +183,14 @@ do without the connector.
 ## Tips
 
 1. **Start from a prompt you already reuse.** If you keep pasting the same
- ask into Claude, that ask is the interview.
+ask into Claude, that ask is the interview.
 2. **Bring the three trigger phrases.** The description is only as good as
- the phrasings it was written for.
+the phrasings it was written for.
 3. **Narrow beats broad.** "Renewals with no exec sponsor" builds a sharper
- skill than "renewal risk".
+skill than "renewal risk".
 4. **Test the description on the negative prompt.** If the one prompt that
- should not trigger it plausibly would, the last sentence of the
- description is not doing its job.
+should not trigger it plausibly would, the last sentence of the
+description is not doing its job.
 
 ## Local mode (no connector connected)
 
