@@ -67,30 +67,6 @@ Open the skill on [zime.ai/gtm-skills](https://zime.ai/gtm-skills) and download 
 - "What are customers saying about Gong this quarter?"
 - "Build a battlecard against Competitor X from our calls."
 
-## How skills get here
-
-Skills are written in the Zime dashboard and published with the **Open source** visibility. The Zime skills publisher renders every open-source skill into this repository and lists it on [zime.ai/gtm-skills](https://zime.ai/gtm-skills), credited to its author by name, role and company.
-
-That means `skills/` and `.claude-plugin/` are generated. Do not edit them by hand; the next publish overwrites them. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add or improve a skill.
-
-## Frequently asked questions
-
-**Do the skills work without Zime?**
-No. They are grounded in your recorded calls, CRM deals and accounts through the Zime MCP connector. Without it Claude has nothing real to work from.
-
-**Can I use these commercially?**
-Yes. Everything here is MIT licensed. See [LICENSE](LICENSE).
-
-**Who wrote them?**
-Zime's team and Zime customers. Each skill's page on zime.ai/gtm-skills names the author.
-
-**Where do I report a problem with a skill?**
-Open an issue in this repository or write to support@zime.ai.
-
-## About Zime
-
-[Zime](https://zime.ai) is a revenue intelligence platform. It records and analyses sales calls, tracks deals and accounts, and gives Claude and other AI agents grounded access to that evidence through the Zime MCP connector at `https://mcp.zime.ai/mcp`.
-
 ## License
 
 [MIT](LICENSE). Copyright (c) 2026 Inner Fit Research Inc. (Zime).
