@@ -1,1 +1,4 @@
 .DS_Store
+
+# quality gate dependencies are installed by the workflow
+.github/quality-gate/node_modules/

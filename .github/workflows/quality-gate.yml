@@ -1,0 +1,39 @@
+name: quality-gate
+
+# Every pull request into main passes through here. Direct pushes are blocked
+# by the branch ruleset; only the skills publisher App bypasses both.
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  quality-gate:
+    name: quality-gate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install the judge's SDK
+        working-directory: .github/quality-gate
+        run: npm install --no-audit --no-fund --silent
+
+      - name: Check the changed files
+        working-directory: .github/quality-gate
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          # Optional. Without it the LLM judge is skipped and only the
+          # deterministic rules run. Add it under Settings > Secrets.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node check.mjs
