@@ -67,7 +67,7 @@ Run the skill in Claude against a real call or deal you have access to. Check th
 
 - **A skill gives wrong or made-up output:** open an issue with the skill slug, the prompt you used, and what came back. Redact customer details.
 - **Install or connector problems:** support@zime.ai.
-- **Security concerns:** email security@zime.ai rather than opening a public issue.
+- **Security concerns:** email support@zime.ai with "security" in the subject rather than opening a public issue.
 
 ## Code of conduct
 
