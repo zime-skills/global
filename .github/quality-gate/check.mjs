@@ -38,7 +38,10 @@ function changedFiles() {
 const files = changedFiles();
 const problems = [];
 const notes = [];
-const fail = (file, msg) => problems.push(`${file}: ${msg}`);
+const fail = (file, msg) => {
+  const line = `${file}: ${msg}`;
+  if (!problems.includes(line)) problems.push(line);
+};
 
 // ---------------------------------------------------------------- rules
 
@@ -153,16 +156,18 @@ for (const file of files) {
   }
   if (HIDDEN_CHARS.test(text)) fail(file, "contains zero-width or bidirectional control characters");
   for (const [re, label] of SECRET_PATTERNS) if (re.test(text)) fail(file, `looks like it contains a ${label}`);
-  for (const url of text.match(/https?:\/\/[^\s)\]'"<>]+/g) ?? []) {
-    let host;
-    try {
-      host = new URL(url).hostname.toLowerCase();
-    } catch {
-      continue;
-    }
-    if (!ALLOWED_HOSTS.some((re) => re.test(host))) fail(file, `links to ${host}, which is not an allowed host`);
-  }
   if (isMarkdown(file)) {
+    // Link hosts are a rule for content people read; lockfiles and configs
+    // legitimately point at registries.
+    for (const url of text.match(/https?:\/\/[^\s)\]'"<>]+/g) ?? []) {
+      let host;
+      try {
+        host = new URL(url).hostname.toLowerCase();
+      } catch {
+        continue;
+      }
+      if (!ALLOWED_HOSTS.some((re) => re.test(host))) fail(file, `links to ${host}, which is not an allowed host`);
+    }
     if (PLACEHOLDERS.test(text)) fail(file, "contains placeholder text (lorem ipsum, asdf, qwerty, ...)");
     if (/\/SKILL\.md$/.test(file)) checkFrontmatter(file, text);
     const prose = stripMarkdownNoise(text);
