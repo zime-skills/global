@@ -42,8 +42,8 @@ You need a Zime account. The skills call the Zime MCP connector for calls, deals
 **Claude Code**
 
 ```
-/plugin marketplace add zime-skills/global
-/plugin install zime-global@zime-global
+/plugin marketplace add zime-skills/gtm-skills
+/plugin install zime-skills@zime-skills
 ```
 
 The plugin bundles the connector configuration (`.mcp.json`), so Claude Code prompts you to sign in to Zime the first time a skill runs.
@@ -51,7 +51,7 @@ The plugin bundles the connector configuration (`.mcp.json`), so Claude Code pro
 **claude.ai (Team and Enterprise)**
 
 1. Connect Zime from the [Claude directory](https://claude.ai/directory/zime). Workspace owners connect it for the whole team.
-2. In Organization settings, open **Plugins**, choose **Add plugins**, then **Sync from GitHub**, and pick `zime-skills/global`.
+2. In Organization settings, open **Plugins**, choose **Add plugins**, then **Sync from GitHub**, and pick `zime-skills/gtm-skills`.
 3. Skills appear under `/` in every chat.
 
 **One skill at a time**
