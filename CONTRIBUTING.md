@@ -4,7 +4,7 @@ Thanks for helping make Claude better at go-to-market work. This guide explains 
 
 ## This repository is generated
 
-`skills/` and `.claude-plugin/` are rendered by the Zime skills publisher from the Zime database. Every publish rebuilds them. **A pull request that edits those paths will be overwritten**, so please do not send one.
+`skills/` is rendered by the Zime skills publisher from the Zime database, and every publish rebuilds it. **A pull request that edits `skills/` will be overwritten**, so please do not send one. The publisher also sets `version` and `name` in `.claude-plugin/plugin.json`; the other fields there (description, keywords, links) are kept across publishes and can be changed by pull request.
 
 Pull requests are welcome for everything else: this guide, the README, issue templates.
 

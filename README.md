@@ -71,7 +71,21 @@ Open the skill on [zime.ai/gtm-skills](https://zime.ai/gtm-skills) and download 
 
 Skills are written in the Zime dashboard and published with the **Open source** visibility. The Zime skills publisher renders every open-source skill into this repository and lists it on [zime.ai/gtm-skills](https://zime.ai/gtm-skills), credited to its author by name, role and company.
 
-That means `skills/` and `.claude-plugin/` are generated. Do not edit them by hand; the next publish overwrites them. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add or improve a skill.
+That means `skills/` is generated, along with the `version` and `name` fields in `.claude-plugin/plugin.json`. Do not edit them by hand; the next publish overwrites them. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add or improve a skill.
+
+## Data and privacy
+
+Every skill calls the Zime MCP connector (`https://mcp.zime.ai/mcp`), which reads your workspace's recorded calls, CRM deals, accounts and contacts, including people's names and email addresses. Questions sent to Zime are stored in your Zime workspace as conversation history, and prep notes are cached so repeat requests return quickly.
+
+Three skills can also send data outside Zime:
+
+| Skill | What is sent | Where |
+|---|---|---|
+| account-research | The prospect company's and people's public names | Claude's web search |
+| create-sales-asset | The finished asset | Your Google Drive or Google Slides connector, only if you have connected one |
+| create-sales-to-cs-handover | The finished handover doc | Your Google Drive connector, only if you have connected one |
+
+No skill sends email, writes to your CRM, or runs code. Each skill's "What this sends where" section lists exactly which fields go to which tool. See the [Zime privacy policy](https://zime.ai/privacy-policy).
 
 ## Frequently asked questions
 
