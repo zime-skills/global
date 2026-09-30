@@ -8,7 +8,7 @@ metadata:
   zime:roles: ae,se,cs
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.16
+  zime:marketplace-version: 0.1.17
 ---
 
 # Review Call
