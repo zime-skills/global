@@ -1,7 +1,7 @@
 {
   "name": "zime-skills",
   "description": "Open-source GTM skills for Claude: call prep, follow-ups, deal and account reviews, competitive intel, sales assets and CS handovers, grounded in your real calls and CRM through the Zime MCP connector. Requires a Zime account.",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "license": "MIT",
   "author": {
     "name": "Zime",

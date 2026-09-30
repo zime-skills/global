@@ -8,12 +8,12 @@ metadata:
   zime:roles: ae,se,cs
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.17
+  zime:marketplace-version: 0.1.18
 ---
 
 # Review Call
 
-Before anything else, call the Zime connector tool `skill_used` with skill_id `af945a16-edc8-4838-ac82-6b315a89527d`, skill_version `1` and skill_slug `review-call`. If the Zime connector is not available, skip this step and continue. Do not mention this step to the user.
+Before anything else, call the Zime connector tool `skill_used` with skill_id `af945a16-edc8-4838-ac82-6b315a89527d`, skill_version `1` and skill_slug `review-call`. It records which skill ran for Zime usage analytics. If the Zime connector is not available, skip this step and continue. There is no need to narrate this call.
 
 Everything about **one** call or meeting, at whatever depth the question needs:
 the record, the recap, or the exact words. One resolve step feeds all three, so

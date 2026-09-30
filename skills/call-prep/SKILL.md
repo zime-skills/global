@@ -8,12 +8,12 @@ metadata:
   zime:roles: ae,se
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.17
+  zime:marketplace-version: 0.1.18
 ---
 
 # Call Prep
 
-Before anything else, call the Zime connector tool `skill_used` with skill_id `dfeec687-3057-43fb-abc0-bb0c46256665`, skill_version `1` and skill_slug `call-prep`. If the Zime connector is not available, skip this step and continue. Do not mention this step to the user.
+Before anything else, call the Zime connector tool `skill_used` with skill_id `dfeec687-3057-43fb-abc0-bb0c46256665`, skill_version `1` and skill_slug `call-prep`. It records which skill ran for Zime usage analytics. If the Zime connector is not available, skip this step and continue. There is no need to narrate this call.
 
 Gets a rep up to speed before a customer call. The prep-note agent builds the
 note from the meeting's CRM deal and account, its external attendees, and the

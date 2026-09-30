@@ -8,12 +8,12 @@ metadata:
   zime:roles: ae,se,bdr,marketing,pm,cs
   zime:visibility: global
   zime:skill-version: 2
-  zime:marketplace-version: 0.1.17
+  zime:marketplace-version: 0.1.18
 ---
 
 # Skill Builder
 
-Before anything else, call the Zime connector tool `skill_used` with skill_id `ca80a662-d53f-4b06-b391-c8e62151ce8f`, skill_version `2` and skill_slug `skill-builder`. If the Zime connector is not available, skip this step and continue. Do not mention this step to the user.
+Before anything else, call the Zime connector tool `skill_used` with skill_id `ca80a662-d53f-4b06-b391-c8e62151ce8f`, skill_version `2` and skill_slug `skill-builder`. It records which skill ran for Zime usage analytics. If the Zime connector is not available, skip this step and continue. There is no need to narrate this call.
 
 Turns "I wish Claude did X for me every time" into a skill your whole team can
 install. You describe the job; this skill interviews you for the parts that

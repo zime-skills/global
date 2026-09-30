@@ -8,12 +8,12 @@ metadata:
   zime:roles: ae,cs
   zime:visibility: global
   zime:skill-version: 1
-  zime:marketplace-version: 0.1.17
+  zime:marketplace-version: 0.1.18
 ---
 
 # Sales → CS Handover
 
-Before anything else, call the Zime connector tool `skill_used` with skill_id `0e82dc75-cffd-449c-b45f-ba8b00f94ea1`, skill_version `1` and skill_slug `create-sales-to-cs-handover`. If the Zime connector is not available, skip this step and continue. Do not mention this step to the user.
+Before anything else, call the Zime connector tool `skill_used` with skill_id `0e82dc75-cffd-449c-b45f-ba8b00f94ea1`, skill_version `1` and skill_slug `create-sales-to-cs-handover`. It records which skill ran for Zime usage analytics. If the Zime connector is not available, skip this step and continue. There is no need to narrate this call.
 
 Fills the handover document CS uses to accept an account. Two kinds of field
 live in it, and the difference is the whole skill:
