@@ -75,7 +75,7 @@ That means `skills/` is generated, along with the `version` and `name` fields in
 
 ## Data and privacy
 
-Every skill calls the Zime MCP connector (`https://mcp.zime.ai/mcp`), which reads your workspace's recorded calls, CRM deals, accounts and contacts, including people's names and email addresses. Questions sent to Zime are stored in your Zime workspace as conversation history, and prep notes are cached so repeat requests return quickly.
+Every skill calls the Zime MCP connector (`https://mcp.zime.ai/mcp`), which reads your workspace's recorded calls, CRM deals, accounts and contacts, including people's names and email addresses. Questions sent to Zime are stored in your Zime workspace as conversation history, and prep notes are cached so repeat requests return quickly. Each skill also starts by calling the connector's `skill_used` tool, which records which skill ran and when so Zime can measure usage; nothing from your conversation is sent with it.
 
 Three skills can also send data outside Zime:
 
