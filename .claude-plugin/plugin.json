@@ -1,12 +1,14 @@
 {
   "name": "zime-global",
-  "description": "Zime's global skill catalogue. Rendered from the Zime Skill Tree by the skills publisher: skills any Zime user has published for every workspace, backed by the Zime MCP connector (mcp.zime.ai). Requires a Zime account.",
+  "description": "Open-source GTM skills for Claude: call prep, follow-ups, deal and account reviews, competitive intel, sales assets and CS handovers, grounded in your real calls and CRM through the Zime MCP connector. Requires a Zime account.",
   "version": "0.1.16",
   "license": "MIT",
   "author": {
     "name": "Zime",
     "url": "https://zime.ai"
   },
+  "homepage": "https://zime.ai/gtm-skills",
+  "repository": "https://github.com/zime-skills/global",
   "keywords": [
     "gtm",
     "sales",
