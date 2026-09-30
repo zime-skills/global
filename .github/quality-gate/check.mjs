@@ -46,8 +46,8 @@ const fail = (file, msg) => {
 // ---------------------------------------------------------------- rules
 
 const GENERATED = [/^skills\//];
-// The publisher rewrites only these plugin.json fields; the rest is carried forward.
-const PUBLISHER_OWNED_PLUGIN_FIELDS = ["version", "name"];
+// The publisher rewrites only version and name in plugin.json; the rest is carried forward.
+// name comes from skill_repos.plugin_name, so it may change only together with marketplace.json.
 const ALLOWED_HOSTS = [
   /(^|\.)zime\.ai$/,
   /^claude\.ai$/,
@@ -160,9 +160,10 @@ if (files.includes(pluginJsonPath)) {
   const prev = prevText ? readJson(prevText) : null;
   if (!next) fail(pluginJsonPath, "is not valid JSON");
   else if (prev) {
-    for (const key of PUBLISHER_OWNED_PLUGIN_FIELDS) {
-      if (prev[key] !== next[key]) fail(pluginJsonPath, `"${key}" is set by the Zime skills publisher; leave it unchanged`);
-    }
+    if (prev.version !== next.version) fail(pluginJsonPath, `"version" is set by the Zime skills publisher; leave it unchanged`);
+    const marketplace = readJson(readFileSync(path.join(repoRoot, ".claude-plugin/marketplace.json"), "utf8"));
+    const listed = marketplace?.plugins?.map((p) => p.name) ?? [];
+    if (!listed.includes(next.name)) fail(pluginJsonPath, `"name" "${next.name}" must match a plugin name in .claude-plugin/marketplace.json`);
   }
 }
 
