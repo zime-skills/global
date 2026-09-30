@@ -2,7 +2,7 @@
   "name": "zime-skills-quality-gate",
   "private": true,
   "type": "module",
-  "description": "Pull request gate for zime-skills/global: deterministic content rules plus an LLM coherence judge.",
+  "description": "Pull request gate for zime-skills/gtm-skills: deterministic content rules plus an LLM coherence judge.",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.126.0"
   }

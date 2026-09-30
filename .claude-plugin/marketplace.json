@@ -1,14 +1,14 @@
 {
-  "name": "zime-global",
+  "name": "zime-skills",
   "owner": {
     "name": "Zime",
     "email": "support@zime.ai"
   },
   "plugins": [
     {
-      "name": "zime-global",
+      "name": "zime-skills",
       "source": "./",
-      "description": "Zime's global skill catalogue: skills published for every Zime workspace, backed by the Zime MCP connector (mcp.zime.ai). Requires a Zime account.",
+      "description": "Open-source GTM skills for Claude, grounded in your real calls and CRM through the Zime MCP connector (mcp.zime.ai). Requires a Zime account.",
       "installationPreference": "auto_install"
     }
   ]
